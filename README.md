@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist kuainiu/yii2-rbac-extension "*"
+php composer.phar require --prefer-dist zy0071982/yii2-rbac-extension "^1.0.1"
 ```
 
 or add
 
 ```
-"kuainiu/yii2-rbac-extension": "*"
+"zy0071982/yii2-rbac-extension": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,5 +27,3 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-```php
-<?= \kuainiu\AutoloadExample::widget(); ?>```
