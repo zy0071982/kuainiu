@@ -1,5 +1,5 @@
 {
-  "name": "kuainiu/yii2-rbac-extension",
+  "name": "zy0071982/yii2-rbac-extension",
   "description": "RBAC Extension for Yii 2",
   "type": "yii2-extension",
   "keywords": [
@@ -11,8 +11,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "snowzhao",
-      "email": "snowzhao@kuainiugroup.com"
+      "name": "snow",
+      "email": "36417581@qq.com"
     }
   ],
   "require": {
