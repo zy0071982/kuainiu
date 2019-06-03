@@ -1,5 +1,5 @@
 {
-  "name": "zy0071982/yii2-rbac-extension",
+  "name": "kuainiu/yii2-rbac-extension",
   "description": "RBAC Extension for Yii 2",
   "type": "yii2-extension",
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "yiisoft/yii2": ">=2.0.0"
+    "yiisoft/yii2": "~2.0.0"
   },
   "require-dev": {
     "mdmsoft/yii2-admin": "~2.0"
