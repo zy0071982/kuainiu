@@ -17,10 +17,12 @@ class UserSearch extends User
     {
         $username = $params['username'] ?? null;
 
-        $query = User::find();
-        if (!empty($userIds) && is_array($userIds)) {
-            $query = $query->andWhere(['id' => $userIds]);
+        if (empty($userIds) || !is_array($userIds)) {
+            $userIds = '-1';
         }
+
+        $query = User::find()
+            ->andWhere(['id' => $userIds]);
 
         $query->andFilterWhere([
             'or',
